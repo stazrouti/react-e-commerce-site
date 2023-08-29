@@ -1,5 +1,4 @@
 import { useState } from "react";
-import copy from "copy-to-clipboard";
 
 const Index = () => {
   const [videoURL, setVideoURL] = useState("");
@@ -33,15 +32,20 @@ const Index = () => {
     }
   };
 
+  const downloadImage = (url) => {
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = "thumbnail.jpg"; // You can change the file name here
+    anchor.setAttribute("download", anchor.download); // Set the download attribute
+    anchor.click();
+  };
+  
+
   return (
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8">
-        <h1 className="text-3xl font-bold mb-2">
-          Youtube Thumbnail Downloader
-        </h1>
-        <p className="text-gray-600">
-          Download high-quality thumbnails from YouTube videos.
-        </p>
+        <h1 className="text-3xl font-bold mb-2">Youtube Thumbnail Downloader</h1>
+        <p className="text-gray-600">Download high-quality thumbnails from YouTube videos.</p>
       </header>
       <div className="text-center">
         <input
@@ -51,10 +55,7 @@ const Index = () => {
           value={videoURL}
           onChange={(e) => setVideoURL(e.target.value)}
         />
-        <button
-          className="btn-blue mt-2"
-          onClick={() => getYouTubeThumbnail(videoURL)}
-        >
+        <button className="btn-blue mt-2" onClick={() => getYouTubeThumbnail(videoURL)}>
           Download Thumbnails
         </button>
       </div>
@@ -65,11 +66,8 @@ const Index = () => {
             {thumbnailOptions.map((option, index) => (
               <div key={index} className="thumbnail-option">
                 <img src={option.url} alt={`Thumbnail ${index + 1}`} />
-                <button
-                  className="btn-blue mt-2"
-                  onClick={() => copy(option.url)}
-                >
-                  Copy Image URL
+                <button className="btn-blue mt-2" onClick={() => downloadImage(option.url)}>
+                  Download Image
                 </button>
               </div>
             ))}
