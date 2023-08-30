@@ -5,6 +5,13 @@ import { DefaultSeo } from "next-seo";
 function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="4N0Tu0ECqYQVvFg9C6Hr0DtbNL7BgIWouBE8Y0wcFDA"
+        />
+        {/* Other meta tags */}
+      </Head>
       <DefaultSeo
         title="Youtube Thumbnail Downloader"
         description="Download high-quality thumbnails from YouTube videos."
