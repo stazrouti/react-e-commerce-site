@@ -1,4 +1,8 @@
 import { useState } from "react";
+import Nav from "./nav";
+
+
+
 
 const Index = () => {
   const [videoURL, setVideoURL] = useState("");

@@ -1,3 +1,8 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 /* This is where the default styles for your application can be defined */
 
 /* Set the base font and background color for the entire app */

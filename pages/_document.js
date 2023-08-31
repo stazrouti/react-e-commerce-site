@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import Nav from "./nav";
 
 class MyDocument extends Document {
   render() {
@@ -25,7 +26,9 @@ class MyDocument extends Document {
           <link rel="manifest" href="/favicon/site.webmanifest" />
         </Head>
         <body>
+      <Nav/>
           <Main />
+
           <NextScript />
         </body>
       </Html>
