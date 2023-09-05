@@ -2,4 +2,8 @@ User-agent: *
 Disallow: /private/
 Disallow: /admin/
 Allow: /public/
+<<<<<<< HEAD
 Sitemap: https://youtubethumb-five.vercel.app/sitemap.xml
+=======
+Sitemap: https://youtubethumb-five.vercel.app/sitemap.xml
+>>>>>>> a081e0526c5513f4ae29bf9bba374ec959902e06
