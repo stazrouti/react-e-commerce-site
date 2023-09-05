@@ -11,6 +11,8 @@ function MyApp({ Component, pageProps }) {
           name="google-site-verification"
           content="4N0Tu0ECqYQVvFg9C6Hr0DtbNL7BgIWouBE8Y0wcFDA"
         />
+        <meta name="keywords" content="youtube, thumbnails, download, high quality"/>
+
         {/* Other meta tags */}
       </Head>
       <DefaultSeo
