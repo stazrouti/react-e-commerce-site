@@ -41,8 +41,12 @@ const Index = () => {
     anchor.href = url;
     anchor.download = "thumbnail.jpg"; // You can change the file name here
     anchor.setAttribute("download", anchor.download); // Set the download attribute
+    anchor.style.display = "none"; // Hide the anchor
+    document.body.appendChild(anchor);
     anchor.click();
+    document.body.removeChild(anchor); // Remove the anchor from the DOM
   };
+  
   
 
   return (
@@ -78,6 +82,34 @@ const Index = () => {
           </div>
         </div>
       )}
+       <div className="mt-8">
+    <h2 className="text-xl font-semibold mb-4">How to Use:</h2>
+    <p className="mb-4">
+      Using our Free YouTube Thumbnail Downloader is easy! Follow these simple steps:
+    </p>
+    <ol className="list-decimal pl-6">
+      <li>
+        Copy the URL of the YouTube video you want to extract a thumbnail from.
+      </li>
+      <li>
+        Paste the copied URL into the input field above.
+      </li>
+      <li>
+        Click the "Download Thumbnails" button.
+      </li>
+      <li>
+        You will see a list of available thumbnail options. Click the "Download Image" button
+        beneath the thumbnail you want to save.
+      </li>
+      <li>
+        The thumbnail image will be downloaded to your device.
+      </li>
+    </ol>
+    <p className="mt-4">
+      Now you can easily access high-quality thumbnails from your favorite YouTube videos!
+    </p>
+  </div>
+
     </div>
   );
 };
