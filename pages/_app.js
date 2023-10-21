@@ -11,8 +11,8 @@ function MyApp({ Component, pageProps }) {
           name="google-site-verification"
           content="4N0Tu0ECqYQVvFg9C6Hr0DtbNL7BgIWouBE8Y0wcFDA"
         />
-        <meta name="keywords" content="youtube, thumbnails, download, high quality"/>
-        <meta name="keywords" content="free Youtube Thumbnail Downloader,YouTube, thumbnails, download, high quality, video thumbnails, YouTube video, thumbnail downloader, download thumbnails, free, online tool, grab thumbnails, HD thumbnails, tutorial, how-to, images, pictures, download images, extract thumbnails, video preview, images from YouTube, video screenshot, extract screenshots"/>
+        <meta name="keywords" content="Youtube Thumbnail Downloader,free Youtube Thumbnail Downloader,Youtube Thumbnail grabber,Downloader  Youtube Thumbnail free ,Downloader thumbnails, download high quality thumbnails, download high quality video thumbnails from YouTube video"/>
+        <meta name="description" content="Youtube Thumbnail Downloader with high image quality for free and easy to use"/>
 
 
         {/* Other meta tags */}

@@ -51,11 +51,11 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="text-center mb-8">
+      <div className="text-center mb-8">
         <h1 className="text-3xl font-bold mb-2">Youtube Thumbnail Downloader</h1>
-        <h2 className="text-gray-600">This is a free  website that allows you to download high-quality thumbnails from YouTube videos.</h2>
+        <h2 className="text-gray-600">Free Youtube Thumbnail Downloader, grabber any video image</h2>
         
-      </header>
+      </div>
       <div className="text-center">
         <input
           type="text"
@@ -84,10 +84,10 @@ const Index = () => {
         </div>
       )}
        <div className="mt-8">
-    <h2 className="text-xl font-semibold mb-4">How to Use:</h2>
-    <p className="mb-4">
+    <h2 className="text-xl font-semibold mb-4">How to Download YouTube Thumbnail for free:</h2>
+    <h3 className="mb-4">
       Using our Free YouTube Thumbnail Downloader is easy! Follow these simple steps:
-    </p>
+    </h3>
     <ol className="list-decimal pl-6">
       <li>
         Copy the URL of the YouTube video you want to extract a thumbnail from.
@@ -106,9 +106,9 @@ const Index = () => {
         The thumbnail image will be downloaded to your device.
       </li>
     </ol>
-    <p className="mt-4">
+    <h2 className="mt-4">
       Now you can easily access high-quality thumbnails from your favorite YouTube videos!
-    </p>
+    </h2>
   </div>
 
     </div>
