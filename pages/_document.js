@@ -6,6 +6,16 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+{/*         <script type="text/javascript">
+            {`atOptions = {
+              'key': 'f92ccb91f88f4a56bb0199822fdc6715',
+              'format': 'iframe',
+              'height': 250,
+              'width': 300,
+              'params': {}
+            };
+            document.write('<scr' + 'ipt type="text/javascript" src="//www.profitablecreativeformat.com/f92ccb91f88f4a56bb0199822fdc6715/invoke.js"></scr' + 'ipt>');`}
+          </script> */}
           <link
             rel="apple-touch-icon"
             sizes="180x180"

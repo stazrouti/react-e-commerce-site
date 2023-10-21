@@ -61,22 +61,55 @@ const Index = () => {
         <h2 className="text-gray-600">Free Youtube Thumbnail Downloader, grabber any video image</h2>
         
       </div>
-      
-      <div className="text-center">
-        <input
-          type="text"
-          className="w-full md:w-1/2 px-4 py-2 border rounded"
-          placeholder="Enter YouTube URL"
-          value={videoURL}
-          onChange={(e) => setVideoURL(e.target.value)}
-        />
-        <button className="btn-blue mt-2" onClick={() => getYouTubeThumbnail(videoURL)}>
-          Download Thumbnails
-        </button>
+
+      <div className="flex flex-wrap px-0">
+        
+        <div style={{ width: '300px', height: '250px' }}>
+          <div dangerouslySetInnerHTML={{ __html: `
+            <script type="text/javascript">
+              atOptions = {
+                'key': 'f92ccb91f88f4a56bb0199822fdc6715',
+                'format': 'iframe',
+                'height': 250,
+                'width': 300,
+                'params': {}
+              };
+              document.write('<scr' + 'ipt type="text/javascript" src="//www.profitablecreativeformat.com/f92ccb91f88f4a56bb0199822fdc6715/invoke.js"></scr' + 'ipt>');
+            </script>
+          ` }} />
+        </div>
+        
+        <div className="text-center ml-8 mr-8 mt-5 mb-5">
+          <input
+            type="text"
+            className="w-full md:w-1/2 px-4 py-2 border rounded"
+            placeholder="Enter YouTube URL"
+            value={videoURL}
+            onChange={(e) => setVideoURL(e.target.value)}
+          />
+          <button className="btn-blue mt-2" onClick={() => getYouTubeThumbnail(videoURL)}>
+            Download Thumbnails
+          </button>
+        </div>
+
+        <div style={{ width: '300px', height: '250px' }}>
+          <div dangerouslySetInnerHTML={{ __html: `
+            <script type="text/javascript">
+              atOptions = {
+                'key': 'f92ccb91f88f4a56bb0199822fdc6715',
+                'format': 'iframe',
+                'height': 250,
+                'width': 300,
+                'params': {}
+              };
+              document.write('<scr' + 'ipt type="text/javascript" src="//www.profitablecreativeformat.com/f92ccb91f88f4a56bb0199822fdc6715/invoke.js"></scr' + 'ipt>');
+            </script>
+          ` }} />
+        </div>
+
       </div>
-      <div>
-        <AdComponent/>
-      </div>
+
+
       {thumbnailOptions.length > 0 && (
         <div className="mt-8">
           <h2 className="text-xl font-semibold mb-4">Thumbnail Options</h2>
