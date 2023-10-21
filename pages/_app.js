@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
         openGraph={{
           url: "https://youtubethumb-five.vercel.app",
           title: "Youtube Thumbnail Downloader",
-          description: "Download high-quality thumbnails from YouTube videos.",
+          description: "Youtube Thumbnail Downloader with high image quality for free and easy to use",
           site_name: "Youtube Thumbnail Downloader",
         }}
       />
