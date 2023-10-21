@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Nav from "./nav";
+import AdComponent from "./Adcomponent";
 
 
 
@@ -46,6 +47,7 @@ const Index = () => {
     anchor.click();
     document.body.removeChild(anchor); // Remove the anchor from the DOM
   };
+
   
   
 
@@ -56,6 +58,7 @@ const Index = () => {
         <h2 className="text-gray-600">Free Youtube Thumbnail Downloader, grabber any video image</h2>
         
       </div>
+      
       <div className="text-center">
         <input
           type="text"
@@ -67,6 +70,9 @@ const Index = () => {
         <button className="btn-blue mt-2" onClick={() => getYouTubeThumbnail(videoURL)}>
           Download Thumbnails
         </button>
+      </div>
+      <div>
+        <AdComponent/>
       </div>
       {thumbnailOptions.length > 0 && (
         <div className="mt-8">
