@@ -16,6 +16,17 @@ class MyDocument extends Document {
             };
             document.write('<scr' + 'ipt type="text/javascript" src="//www.profitablecreativeformat.com/f92ccb91f88f4a56bb0199822fdc6715/invoke.js"></scr' + 'ipt>');`}
           </script> */}
+          <div dangerouslySetInnerHTML={{ __html: `
+          
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-SKGYHHNRJF"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-SKGYHHNRJF');
+            </script>`}}/>
+            
           <link
             rel="apple-touch-icon"
             sizes="180x180"
