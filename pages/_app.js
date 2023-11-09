@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <DefaultSeo
         title="Youtube Thumbnail Downloader"
-        description="Download high-quality thumbnails from YouTube videos."
+        description="Download youtube thumbnail Images for free of all quality"
         canonical="https://youtubethumb-five.vercel.app"
         openGraph={{
           url: "https://youtubethumb-five.vercel.app",
