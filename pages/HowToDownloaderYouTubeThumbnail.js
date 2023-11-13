@@ -26,7 +26,7 @@ const HowToDownloaderYouTubeThumbnail = () => {
       </li>
       <li>
         Paste the copied URL into the input field above <span className="text-blue-500 hover:underline cursor-pointer"><Link href="/" passHref>
-        Here
+        click here
           </Link></span>
       </li>
       <li>
