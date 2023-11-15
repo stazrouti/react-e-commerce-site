@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
 
         {/* Other meta tags */}
       </Head>
-      <DefaultSeo
+{/*       <DefaultSeo
         title="Youtube Thumbnail Downloader"
         description="Download youtube thumbnail Images for free of all quality"
         canonical="https://youtubethumb-five.vercel.app"
@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
           description: "Youtube Thumbnail Downloader with high image quality for free and easy to use",
           site_name: "Youtube Thumbnail Downloader",
         }}
-      />
+      /> */}
       <Component {...pageProps} />
     </Fragment>
   );
