@@ -7,12 +7,13 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
+        <title>YouTube Thumbnail Downloader: High-Quality Tool</title>
         <meta
           name="google-site-verification"
           content="4N0Tu0ECqYQVvFg9C6Hr0DtbNL7BgIWouBE8Y0wcFDA"
         />
-        <meta name="keywords" content="Youtube Thumbnail Downloader,free Youtube Thumbnail Downloader,Youtube Thumbnail grabber,Downloader  Youtube Thumbnail free ,Downloader thumbnails, download high quality thumbnails, download high quality video thumbnails from YouTube video"/>
-        <meta name="description" content="Youtube Thumbnail Downloader with high image quality for free and easy to use"/>
+       {/*  <meta name="keywords" content="Youtube Thumbnail Downloader,free Youtube Thumbnail Downloader,Youtube Thumbnail grabber,Downloader  Youtube Thumbnail free ,Downloader thumbnails, download high quality thumbnails, download high quality video thumbnails from YouTube video"/>
+        <meta name="description" content="Youtube Thumbnail Downloader with high image quality for free and easy to use"/> */}
 
 
         {/* Other meta tags */}
