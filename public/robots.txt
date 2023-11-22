@@ -2,6 +2,6 @@ User-agent: *
 Disallow: /private/
 Disallow: /admin/
 Allow: /
-Sitemap: https://youtubethumb-five.vercel.app/sitemap.xml
+Sitemap: https://www.youtubethumbnail.tech/sitemap.xml
 
 
