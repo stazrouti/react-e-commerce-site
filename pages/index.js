@@ -2,6 +2,7 @@ import { useState } from "react";
 import Nav from "./nav";
 
 import AdComponent from "./Ad";
+import Head from "next/head";
 
 
 
@@ -55,6 +56,12 @@ const Index = () => {
   
 
   return (
+    <>
+      <Head>
+        <title>Youtube Thumbnail Downloader</title>
+        <meta name="description" content="Download high-quality YouTube video thumbnails effortlessly with our free youtube Thumbnail Downloader tool." />
+        <meta name="keywords" content="Youtube Thumbnail Downloader,free Youtube Thumbnail Downloader,Youtube Thumbnail grabber,Downloader  Youtube Thumbnail free ,Downloader thumbnails, download high quality thumbnails, download high quality video thumbnails from YouTube video" />
+      </Head>
     <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold mb-2">Youtube Thumbnail Downloader</h1>
@@ -154,6 +161,7 @@ const Index = () => {
   </div>
 
     </div>
+    </>
   );
 };
 
