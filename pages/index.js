@@ -58,7 +58,7 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Youtube Thumbnail Downloader</title>
+        <title>Youtube Thumbnail Downloader:High-Quality Tool</title>
         <meta name="description" content="Download high-quality YouTube video thumbnails effortlessly with our free youtube Thumbnail Downloader tool." />
         <meta name="keywords" content="Youtube Thumbnail Downloader,free Youtube Thumbnail Downloader,Youtube Thumbnail grabber,Downloader  Youtube Thumbnail free ,Downloader thumbnails, download high quality thumbnails, download high quality video thumbnails from YouTube video" />
       </Head>
