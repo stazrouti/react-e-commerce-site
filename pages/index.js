@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Nav from "./nav";
-
+import { DefaultSeo } from "next-seo";
 import AdComponent from "./Ad";
 import Head from "next/head";
 
@@ -57,6 +57,18 @@ const Index = () => {
 
   return (
     <>
+    <DefaultSeo
+        title="Youtube Thumbnail Downloader"
+        description="Download high-quality YouTube video thumbnails effortlessly with our free youtube Thumbnail Downloader tool."
+        canonical="https://youtubethumbnaildownloaders.vercel.app/"
+        
+        openGraph={{
+          url: "https://youtubethumbnaildownloaders.vercel.app/",
+          title: "Youtube Thumbnail Downloader",
+          description: "Download high-quality YouTube video thumbnails effortlessly with our free youtube Thumbnail Downloader tool.",
+          site_name: "Youtube Thumbnail Downloader",
+        }}
+      /> 
       <Head>
         <title>Youtube Thumbnail Downloader:High-Quality Tool</title>
         <meta name="description" content="Download high-quality YouTube video thumbnails effortlessly with our free youtube Thumbnail Downloader tool." />
