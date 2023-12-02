@@ -1,8 +1,12 @@
 import React from "react";
-
+import Head from "next/head";
 const About = () => {
   return (
-    
+    <>
+      <Head>
+        <title>About Youtube Thumbnail Downloader</title>
+        <meta name="description" content="About  YouTube video thumbnails Downloader : how to use" />
+      </Head>
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8">
         <h1 className="text-3xl font-bold mb-2">About Us</h1>
@@ -26,6 +30,7 @@ const About = () => {
         The YouTube Thumbnail Downloader is a valuable tool that simplifies the process of acquiring visually appealing and attention-grabbing thumbnail images from YouTube videos. Its user-centric design, seamless functionality, and clear instructions make it a go-to solution for content creators and individuals looking to enhance the visual presentation of their YouTube videos. Whether you're a YouTuber, a marketer, or anyone in need of captivating thumbnails, this application offers an efficient way to obtain the images you need to make your content shine.
       </p>
     </div>
+    </>
   );
 };
 

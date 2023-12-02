@@ -31,7 +31,7 @@ const HowToDownloaderYouTubeThumbnail = () => {
         Copy the URL of the YouTube video you want to extract a thumbnail from.
       </li>
       <li>
-        Paste the copied URL into the input field above <span className="text-blue-500 hover:underline cursor-pointer"><Link href="/" passHref>
+        Paste the copied URL into the input field above <span className="text-blue-500 hover:underline cursor-pointer"><Link href="/" passHref title="YouTube Thumbnail Downloader">
         click here
           </Link></span>
       </li>
