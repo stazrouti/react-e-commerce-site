@@ -32,9 +32,10 @@ const Index = () => {
         resolution: option.resolution,
         url: `${thumbnailBaseUrl}${videoURL}/${option.code}.jpg`,
       }));
+      
 
       setThumbnailOptions(thumbnailOptions);
-      setVideoURL("");
+      //setVideoURL("");
     } else {
       setThumbnailOptions([]);
     }
@@ -123,6 +124,7 @@ const Index = () => {
             {thumbnailOptions.map((option, index) => (
               <div key={index} className="thumbnail-option">
                 <img src={option.url} alt={`Thumbnail ${index + 1}`} />
+                <div >Resolution : {option.resolution}</div>
                 <button className="btn-blue mt-2" onClick={() => downloadImage(option.url)}>
                   Download Image
                 </button>
