@@ -86,10 +86,11 @@ const Index = () => {
           ` }} />
         </div>
         
-        <div className="text-center ml-8 mr-8 mt-5 mb-5">
+        
+        <div className="md:ml-38 lg:text-center ml-8 mr-8 mt-5 mb-5 ">
           <input
             type="text"
-            className="w-full md:w-1/2 px-4 py-2 border rounded"
+            className="w-full md:w-1/2 px-4 py-2 border rounded  "
             placeholder="Enter YouTube URL"
             value={videoURL}
             onChange={(e) => setVideoURL(e.target.value)}
@@ -98,6 +99,7 @@ const Index = () => {
             Download Thumbnails
           </button>
         </div>
+
 
         <div style={{ width: '300px', height: '250px' }}>
           <div dangerouslySetInnerHTML={{ __html: `
@@ -123,9 +125,12 @@ const Index = () => {
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {thumbnailOptions.map((option, index) => (
               <div key={index} className="thumbnail-option">
-                <img src={option.url} alt={`Thumbnail ${index + 1}`} />
-                <div >Resolution : {option.resolution}</div>
-                <button className="btn-blue mt-2" onClick={() => downloadImage(option.url)}>
+                <div className="flex items-center justify-center lg:h-64">
+                  <img src={option.url} alt={`Thumbnail ${index + 1}`} />
+                </div>
+
+                <div className="text-sm text-gray-600 p-6">Resolution : {option.resolution}</div>
+                <button className="btn-blue mt-2 " onClick={() => downloadImage(option.url)}>
                   Download Image
                 </button>
               </div>
