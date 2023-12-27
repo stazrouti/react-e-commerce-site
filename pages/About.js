@@ -23,7 +23,6 @@ const About = () => {
         Often, when sharing or promoting YouTube videos, having eye-catching and relevant thumbnails is crucial for grabbing the audience's attention. With the YouTube Thumbnail Downloader, users can effortlessly generate a selection of thumbnail images to choose from, ensuring that they find the perfect image that best represents their video content.
       </p>
 
-      {/* Add more questions and answers here as needed */}
       
       <h2 className="text-xl font-semibold mb-2">Conclusion</h2>
       <p className="text-gray-600">

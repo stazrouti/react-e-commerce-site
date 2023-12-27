@@ -2,6 +2,7 @@ import { useState } from "react";
 import Nav from "./nav";
 import AdComponent from "./Ad";
 import Head from "next/head";
+import React from "react";
 
 
 

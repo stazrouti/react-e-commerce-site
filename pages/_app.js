@@ -2,6 +2,8 @@ import "../styles/index.css";
 import { Fragment } from "react";
 import { DefaultSeo } from "next-seo";
 import Head from "next/head";
+import React from "react";
+
 
 function MyApp({ Component, pageProps }) {
   return (

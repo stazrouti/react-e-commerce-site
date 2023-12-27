@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import Nav from "./nav";
+import React from "react";
 
 class MyDocument extends Document {
   render() {

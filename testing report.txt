@@ -1,0 +1,106 @@
+#test index component using jest
+    t1:failed
+     Index Component
+    × renders Index component (331 ms)
+    × updates videoURL state on input change (140 ms)
+    × calls getYouTubeThumbnail on button click (152 ms)
+
+  ● Index Component › renders Index component
+
+    ReferenceError: React is not defined
+
+      56 |
+      57 |
+    > 58 |   return (
+         |   ^
+      59 |     <>
+      60 |       <Head>
+      61 |         <title>Youtube Thumbnail Downloader:High-Quality Tool</title>
+
+      at Index (pages/index.js:58:3)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:16305:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:20074:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:21587:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27426:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26560:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26466:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26434:7)
+      at recoverFromConcurrentError (node_modules/react-dom/cjs/react-dom.development.js:25850:20)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25750:22)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:46:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:161:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:247:10)
+      at Object.<anonymous> (testing/index.test.js:7:11)
+
+  ● Index Component › updates videoURL state on input change
+
+    ReferenceError: React is not defined
+
+      56 |
+      57 |
+    > 58 |   return (
+         |   ^
+      59 |     <>
+      60 |       <Head>
+      61 |         <title>Youtube Thumbnail Downloader:High-Quality Tool</title>
+
+      at Index (pages/index.js:58:3)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:16305:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:20074:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:21587:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27426:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26560:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26466:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26434:7)
+      at recoverFromConcurrentError (node_modules/react-dom/cjs/react-dom.development.js:25850:20)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25750:22)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:46:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:161:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:247:10)
+      at Object.<anonymous> (testing/index.test.js:14:11)
+
+  ● Index Component › calls getYouTubeThumbnail on button click
+
+    ReferenceError: React is not defined
+
+      56 |
+      57 |
+    > 58 |   return (
+         |   ^
+      59 |     <>
+      60 |       <Head>
+      61 |         <title>Youtube Thumbnail Downloader:High-Quality Tool</title>
+
+      at Index (pages/index.js:58:3)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:16305:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:20074:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:21587:16)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:27426:14)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:26560:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:26466:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:26434:7)
+      at recoverFromConcurrentError (node_modules/react-dom/cjs/react-dom.development.js:25850:20)
+      at performConcurrentWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:25750:22)
+      at flushActQueue (node_modules/react/cjs/react.development.js:2667:24)
+      at act (node_modules/react/cjs/react.development.js:2582:11)
+      at node_modules/@testing-library/react/dist/act-compat.js:46:25
+      at renderRoot (node_modules/@testing-library/react/dist/pure.js:161:26)
+      at render (node_modules/@testing-library/react/dist/pure.js:247:10)
+      at Object.<anonymous> (testing/index.test.js:24:11)
+
+        Test Suites: 1 failed, 1 total
+        Tests:       3 failed, 3 total
+        Snapshots:   0 total
+        Time:        5.498 s
+        Ran all test suites.
+
+        solution:import react
+
+About component :
+    test rendring component
+    issuse found :react not imported
+    solution import react
