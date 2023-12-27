@@ -12,9 +12,6 @@ describe('detailProduct', () => {
     expect(detailProduct).toHaveProperty('count');
     expect(detailProduct).toHaveProperty('total');
 
-    // testing for the value to do not be null
-    it("should not be null"), () => {
-      expect(detailProduct).not.toBeNull();
-    }
+   
   });
 });
