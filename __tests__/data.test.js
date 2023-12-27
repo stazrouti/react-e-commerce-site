@@ -18,5 +18,10 @@ describe('storeProducts', () => {
     expect(sampleProduct).toHaveProperty('inCart');
     expect(sampleProduct).toHaveProperty('count');
     expect(sampleProduct).toHaveProperty('total');
+
+    // expect(sampleProduct).toHaveProperty('id', 1);
+    // expect(sampleProduct).toHaveProperty('title', 'Google Pixel - Black');
+    // expect(sampleProduct).toHaveProperty('img', 'img/product-1.png');
+    // expect(sampleProduct).toHaveProperty('price', 10);
   });
 });
