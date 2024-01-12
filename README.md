@@ -29,6 +29,7 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
+- [📝 Quality Assurance Documentation](#Quality-assurance-Documentation)
 
 # 📖 react-e-commerce-site   <a name="about-project"></a>
 *[react-e-commerce-site ]*  is a e-commerce website that allows you to navigate throught different product add product to your cart, update quantity, and clear cart.
@@ -141,5 +142,7 @@ If you like this project please give it a start and share it with your friends.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+# 📝 Quality assurance Documentation   <a name="Quality-assurance-Documentation"></a>
+<p><a href="https://docs.google.com/document/d/1FQNZnP3O4oyPadj22ivSuRHTG8LqleoevACnJv9vlR0/edit?usp=sharing">Documentation link</a></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
