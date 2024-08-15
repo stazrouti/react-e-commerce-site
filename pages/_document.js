@@ -47,7 +47,6 @@ class MyDocument extends Document {
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
           <meta name="keywords" content="Youtube Thumbnail Downloader,free Youtube Thumbnail Downloader,Youtube Thumbnail grabber,Downloader  Youtube Thumbnail free ,Downloader thumbnails, download high quality thumbnails, download high quality video thumbnails from YouTube video"/>
-          <meta name="description" content="Youtube Thumbnail Downloader with high image quality for free and easy to use"/>
           <meta name="title" content="Youtube Thumbnail Downloader"/>
         </Head>
         <body>
